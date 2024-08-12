@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  fetch-scaffold-from-sparc-portal:
+    build:
+      dockerfile: docker/python/Dockerfile
+      target: production
