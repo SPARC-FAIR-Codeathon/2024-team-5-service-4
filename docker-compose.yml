@@ -7,19 +7,15 @@ services:
       labels:
         io.simcore.name: '{"name":"Fetch Scaffold From SPARC Portal"}'
         io.simcore.thumbnail: '{"thumbnail":"https://github.com/ITISFoundation/osparc-assets/blob/cb43207b6be2f4311c93cd963538d5718b41a023/assets/default-thumbnail-cookiecutter-osparc-service.png?raw=true"}'
-        io.simcore.description: '{"description":"Module to help fetch scaffold vtk
-          file from SPARC Portal"}'
+        io.simcore.description: '{"description":"Module to help fetch scaffold vtk file from SPARC Portal"}'
         io.simcore.key: '{"key":"simcore/services/comp/fetch-scaffold-from-sparc-portal"}'
-        io.simcore.version: '{"version":"0.1.0"}'
+        io.simcore.version: '{"version":"0.1.3"}'
         io.simcore.integration-version: '{"integration-version":"1.0.0"}'
         io.simcore.type: '{"type":"computational"}'
-        io.simcore.authors: '{"authors":[{"name":"Shailesh Appukuttan","email":"appukuttan.shailesh@gmail.com","affiliation":"INT,
-          Aix-Marseille University, France"}]}'
+        io.simcore.authors: '{"authors":[{"name":"Shailesh Appukuttan","email":"appukuttan.shailesh@gmail.com","affiliation":"INT, Aix-Marseille University, France"}]}'
         io.simcore.contact: '{"contact":"appukuttan.shailesh@gmail.com"}'
-        io.simcore.inputs: '{"inputs":{"input_1":{"displayOrder":1.0,"label":"Dataset
-          ID","description":"ID of Dataset (example = 292)","type":"string","defaultValue":"292"}}}'
-        io.simcore.outputs: '{"outputs":{"output_1":{"displayOrder":1.0,"label":"VTK
-          File","description":"VTK file fetched from dataset","type":"data:*/*","fileToKeyMap":{"scaffold.vtk":"output_1"}}}}'
+        io.simcore.inputs: '{"inputs":{"input_1":{"displayOrder":1.0,"label":"Dataset ID","description":"ID of Dataset (example = 292)","type":"string","defaultValue":"292"}}}'
+        io.simcore.outputs: '{"outputs":{"output_1":{"displayOrder":1.0,"label":"VTK File","description":"VTK file fetched from dataset","type":"data:*/*","fileToKeyMap":{"scaffold.vtk":"output_1"}}}}'
         org.label-schema.build-date: 2024-08-12T20:17:01+0000
         org.label-schema.schema-version: '1.0'
         org.label-schema.vcs-ref: ''
@@ -27,4 +23,4 @@ services:
         simcore.service.restart-policy: no-restart
         simcore.service.settings: '[{"name":"Resources","type":"Resources","value":{"Limits":{"NanoCPUs":1000000000,"MemoryBytes":2147483648}}}]'
       target: production
-    image: simcore/services/comp/fetch-scaffold-from-sparc-portal:0.1.0
+    image: simcore/services/comp/fetch-scaffold-from-sparc-portal:0.1.3
