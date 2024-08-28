@@ -1,6 +1,6 @@
 # 2024-team-5- Service 4: Fetch Scaffold From SPARC Portal
 
-![License Badge](https://img.shields.io/badge/license-MIT-blue.svg) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Version](https://img.shields.io/badge/version-0.1.0-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13308937.svg)](https://doi.org/10.5281/zenodo.13308937)
+![License Badge](https://img.shields.io/badge/license-MIT-blue.svg) ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg) ![Version](https://img.shields.io/badge/version-0.1.3-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13308937.svg)](https://doi.org/10.5281/zenodo.13308937)
 
 This module is part of:
 <br/><br/>
